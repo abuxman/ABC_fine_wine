@@ -1,0 +1,11 @@
+.ct-points-color {
+    color: #b62729;
+}
+
+#activiy-list-v2 ul .activity button.title span {
+    color: #b62729;
+}
+
+#activity-list-v2 ul .point-value {
+    box-shadow: #e9e4dd;
+}
