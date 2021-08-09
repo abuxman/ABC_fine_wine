@@ -538,3 +538,10 @@ html,body{
     transition:none
 }
  
+.ct-points-color {
+    color: #b62729 !important;
+}
+
+#account-overview-two-v2 > div.container > div.logout-link-container > a {
+    display: none !important;
+}

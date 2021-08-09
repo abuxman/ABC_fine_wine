@@ -792,6 +792,18 @@ html,body{
         top:1.25rem
     }
 }
+
 #activity-list-v2 .activity+.activity{
     margin-top:0
+}
+#activity-list-v2 ul .activity button.title span {
+    color: #b62729 !important;
+}
+
+#activity-list-v2 ul .activity:hover button.title span, #activity-list-v2 ul .activity:focus button.title span {
+    color: #ba6a6b !important;
+}
+
+#activity-list-v2 ul .point-value {
+    box-shadow: 0 0 0 2px #e9e4dd !important;
 }

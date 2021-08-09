@@ -1029,3 +1029,10 @@ html,body{
     }
 }
  
+.header.ct-header-color .ct-header-text-color {
+    color: black !important;
+}
+
+.ct-points-color {
+    color: #b62729 !important;
+}

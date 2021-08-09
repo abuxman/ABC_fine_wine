@@ -626,3 +626,10 @@ html,body{
     width:auto
 }
  
+#activity-history-v2 table th, #activity-history-v2 .activity-history th, #activity-history-v2 .redemption-history th, #activity-history-v2 .purchase-history-table th, #reward-history-v2 table th, #reward-history-v2 .activity-history th, #reward-history-v2 .redemption-history th, #reward-history-v2 .purchase-history-table th, #purchase-history-v2 table th, #purchase-history-v2 .activity-history th, #purchase-history-v2 .redemption-history th, #purchase-history-v2 .purchase-history-table th {
+    color: black;
+}
+
+#activity-history-v2 .ct-points-color, #reward-history-v2 .ct-points-color, #purchase-history-v2 .ct-points-color {
+    color: #b62729 !important;
+}
