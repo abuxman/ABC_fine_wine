@@ -1,11 +1,65 @@
+/* Account Overview */
 .ct-points-color {
-    color: #b62729;
+    color: #b62729 !important;
 }
 
-#activiy-list-v2 ul .activity button.title span {
-    color: #b62729;
+#account-overview-two-v2 > div.container > div.logout-link-container > a {
+    display: none !important;
+}
+
+/* Activity List */
+#activity-list-v2 ul .activity button.title span {
+    color: #b62729 !important;
+}
+
+#activity-list-v2 ul .activity:hover button.title span, #activity-list-v2 ul .activity:focus button.title span {
+    color: #ba6a6b !important;
 }
 
 #activity-list-v2 ul .point-value {
-    box-shadow: #e9e4dd;
+    box-shadow: 0 0 0 2px #e9e4dd !important;
+}
+
+/* Rewards List */
+#reward-list-v2 .rewards .reward .content .title, #reward-list-v2 .rewards .reward:nth-child(n) .content .title {
+    color: #b62729 !important;
+}
+
+#reward-list-v2 .rewards .reward .content a:hover .title, #reward-list-v2 .rewards .reward .content a:focus .title, #reward-list-v2 .rewards .reward:nth-child(n) .content a:hover .title, #reward-list-v2 .rewards .reward:nth-child(n) .content a:focus .title {
+    color: #ba6a6b !important;
+}
+
+#reward-list-v2 .rewards .reward .content .row p.points.ct-points-color, #reward-list-v2 .rewards .reward:nth-child(n) .content .row p.points.ct-points-color {
+    box-shadow: 0 0 0 2px #e9e4dd !important;
+}
+
+/* History */
+#activity-history-v2 table th, #activity-history-v2 .activity-history th, #activity-history-v2 .redemption-history th, #activity-history-v2 .purchase-history-table th, #reward-history-v2 table th, #reward-history-v2 .activity-history th, #reward-history-v2 .redemption-history th, #reward-history-v2 .purchase-history-table th, #purchase-history-v2 table th, #purchase-history-v2 .activity-history th, #purchase-history-v2 .redemption-history th, #purchase-history-v2 .purchase-history-table th {
+    color: black;
+}
+
+#activity-history-v2 .ct-points-color, #reward-history-v2 .ct-points-color, #purchase-history-v2 .ct-points-color {
+    color: #b62729 !important;
+}
+
+/* Redemption */
+.header.ct-header-color .ct-header-text-color {
+    color: black !important;
+}
+
+.ct-points-color {
+    color: #b62729 !important;
+}
+
+/* Survey */
+.header.ct-header-color .ct-header-text-color {
+    color: black !important;
+}
+
+.ct-points-color {
+    color: #b62729 !important;
+}
+
+#quiz-v2 .progress__filled {
+    background: #b62729 !important;
 }

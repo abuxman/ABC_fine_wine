@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Access</title>
-    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://resources.crowdtwist.com/v259/widgets/javascripts/widgets-sdk.0.3.1.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
@@ -75,16 +75,51 @@
         <div class="ct-widget" data-widget-id="13614" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/account-overview-two/13614"></div>
         <!-- Activity List -->
         <h2>Activities</h2>
-        <div class="ct-widget" data-widget-id="13232" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/activity-list/13232"></div>
+        <div class="activity-buttons">
+          <a href=""><img src="img/claim_purchase_button.png"></a>
+          <a href=""><img src="img/invite_friends_button.png"></a>
+        </div>
+        <div id="activityList">
+          <script>
+            setTimeout(function() {
+              document.getElementById('activityList').innerHTML += '<div class="ct-widget" data-widget-id="13232" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/activity-list/13232"></div>';
+              window.CrowdTwist.loadWidgets();
+            }, 100);
+          </script>
+        </div>
         <!-- Reward List -->
         <h2>Rewards</h2>
-        <div class="ct-widget" data-widget-id="13252" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-list/13252"></div>
+        <div id="rewardList">
+          <script>
+            setTimeout(function() {
+              document.getElementById('rewardList').innerHTML +='<div class="ct-widget" data-widget-id="13252" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-list/13252"></div>';
+              window.CrowdTwist.loadWidgets();
+            }, 100);
+          </script>
+        </div>
+        <!-- <div class="ct-widget" data-widget-id="13252" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-list/13252"></div> -->
         <!-- Activity History -->
         <h2>Activity History</h2>
-        <div class="ct-widget" data-widget-id="13222" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/activity-history/13222"></div>
+        <div id="activityHistory">
+          <script>
+            setTimeout(function() {
+              document.getElementById('activityHistory').innerHTML += '<div class="ct-widget" data-widget-id="13222" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/activity-history/13222"></div>';
+              window.CrowdTwist.loadWidgets();
+            }, 100);
+          </script>
+        </div>
+        <!-- <div class="ct-widget" data-widget-id="13222" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/activity-history/13222"></div> -->
         <!-- Reward History -->
         <h2>Reward History</h2>
-        <div class="ct-widget" data-widget-id="13228" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-history/13228"></div>
+        <div id="rewardHistory">
+          <script>
+            setTimeout(function() {
+              document.getElementById('rewardHistory').innerHTML += '<div class="ct-widget" data-widget-id="13228" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-history/13228"></div>';
+              window.CrowdTwist.loadWidgets();
+            }, 100);
+          </script>
+        </div>
+        <!-- <div class="ct-widget" data-widget-id="13228" data-src="https://ascent10-widgets.crowdtwist.com/widgets/t/reward-history/13228"></div> -->
       </div>
     </main>
     <footer>

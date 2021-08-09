@@ -215,6 +215,18 @@ main h2 {
     width: 100%;
 }
 
+.col2 .activity-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.col2 .activity-buttons img {
+    width: 385px;
+    height: 68;
+    margin: 20px 30px;
+}
+
 /* Footer */
 footer {
     width: 100%;
